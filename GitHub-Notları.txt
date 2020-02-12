@@ -1,0 +1,20 @@
+	# 	Bilgisyara ilk defa Git kurulduğunda gitHub adresimiz ile ilişkilendirmemiz için gerekli kod parçacığı (cmd)
+
+git config --global user.name "git_hub_kullanici_adi"
+git config --global user.mail "git_hub_mail@adresin.com"
+
+
+
+	# 	Localde gitHub reposu oluşturmak
+git init -> klasöre bir .git oluşturur(repo)
+
+
+	#	Bir git reposu içerisindeyken kullanabileceğimiz komutlar
+git status -> yapılan değişiklikleri bize verir
+git add dosya_adi -> sadece dosya adini repoya ekler
+git add . -> değişiklik yapılan bütün kodları repoya pushlar
+git commit -m "yorum satiri" -> repomuza kodları yollarken yorum ekleyebiliriz
+git push -u origin master  -> repoya kodları pushlar (deploy eder)
+
+	# Uzak Sunucuda Repo Güncelleme
+git pull -> gitHub repolarındaki kodlarımızı lokalde bulunan değiştirilmemiş repomuz ile optimize eder
