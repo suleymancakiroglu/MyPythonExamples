@@ -1,0 +1,5 @@
+print("Please enter your info!")
+name =input("Name :")
+surname =input("Surname :")
+number =input("Number :")
+print("Your name is:{}\nSurname is:{}\nAnd number is:{}".format(name,surname,number))
